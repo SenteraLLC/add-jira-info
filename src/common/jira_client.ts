@@ -60,7 +60,7 @@ export class JiraClient {
       );
       const body: string = await res.readBody();
       const obj = JSON.parse(body);
-
+      console.log(obj);
       var issuetype: string | undefined = undefined;
       var title: string | undefined = undefined;
       var fixVersions: string[] | undefined = undefined;
