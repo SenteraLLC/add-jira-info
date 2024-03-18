@@ -69,7 +69,7 @@ export async function run() {
   core.info(`    Pull Request: ${pullRequest}`);
   core.info(`    Jira key: ${jiraKey}`);
   core.info(`    Issue type: ${jiraIssue}`);
-  console.log('jiraIssue:', jiraIssue)
+  
   if (addLabelWithIssueType) {
     core.info(`📄 Adding pull request label`);
 

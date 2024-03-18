@@ -79,7 +79,7 @@ export class JiraClient {
       return new JiraIssue(
         key,
         `${this.baseUrl}/browse/${key}`,
-        title,
+        'title',
         issuetype,
         fixVersions,
       );
