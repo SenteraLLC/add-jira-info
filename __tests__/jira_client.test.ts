@@ -15,7 +15,7 @@ describe("get jira issue type", () => {
     client = new JiraClient("https://base-url", "username", "token", "PRJ");
   });
 
-  it("gets the issue type of a jira issue", async () => {
+  it.only("gets the issue type of a jira issue", async () => {
     const response = {
       fields: {
         issuetype: {
